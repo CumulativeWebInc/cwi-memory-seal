@@ -1,0 +1,177 @@
+{
+  "schema": "cwi.memory-audit-index/1.0",
+  "generated_at": "2026-09-16T15:30:00.000Z",
+  "rules_version": "ms-rules/1.0",
+  "audits": [
+    {
+      "schema": "cwi.memory-audit/1.0",
+      "audit_id": "msa_F3YVK80NZ0726FCP",
+      "source": "file://~/MEMORY.md",
+      "scanned_at": "2026-09-16T15:30:00.000Z",
+      "rules_version": "ms-rules/1.0",
+      "input_sha256": "215b8877ba6b0ae31ee7fe1197a860093de1cce800b32531ee834ecb96f0c795",
+      "line_count": 87,
+      "counts": {
+        "CRITICAL": 0,
+        "WARNING": 6,
+        "INFO": 4
+      },
+      "finding_count": 10,
+      "findings": [
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 8,
+          "line2": null,
+          "evidence": "- Facebook presence (observed 2026-09-15): official CWI Facebook page **\"Cumulative Web\"** — https://www.facebook.com/Cumulative-Web-102372541712722 (page ID 1…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-06",
+          "severity": "WARNING",
+          "title": "Possible contradiction (unmarked)",
+          "line": 9,
+          "line2": 10,
+          "evidence": "L9: - YouTube presence (observed 2026-09-15): **@cumulativeweb** on YouTube / YouTube Music (…  ⇄  L10: - X presence (observed 2026-09-15): **@cumulativeweb** and **@cumulativebr** (follower co…",
+          "advice": "Verify which statement is current; if superseded, add a correction marker (see MS-07)."
+        },
+        {
+          "rule": "MS-06",
+          "severity": "WARNING",
+          "title": "Possible contradiction (unmarked)",
+          "line": 9,
+          "line2": 11,
+          "evidence": "L9: - YouTube presence (observed 2026-09-15): **@cumulativeweb** on YouTube / YouTube Music (…  ⇄  L11: - Instagram presence (observed 2026-09-15): official CWI account **@cumulativeweb** and B…",
+          "advice": "Verify which statement is current; if superseded, add a correction marker (see MS-07)."
+        },
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 38,
+          "line2": null,
+          "evidence": "- 2026-09-14 (evening), corrected by 9/15 scan: Messenger claims by Shan/DJ 6Rings (a That Boy Hi Hat track, track TBD, to \"It's Goin\", confirmed 5:18 PM) and …",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 40,
+          "line2": null,
+          "evidence": "- 2026-09-15: Moltbook claim COMPLETE for MUSE_CWI (status: claimed). Black named the agent \"KingCode\" — profile description now leads with KingCode. 2026-09-1…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 75,
+          "line2": null,
+          "evidence": "- New reported items (unverified, from the exports): an official CWI **Substack** publication — VERIFIED LIVE 2026-09-15 at https://substack.com/@cumulativeweb…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-07",
+          "severity": "INFO",
+          "title": "Retroactive-edit marker (healthy)",
+          "line": 16,
+          "line2": null,
+          "evidence": "- Created Spotify playlist \"That Boy Hi Hat - Complete Catalog for AI Learning\" (spotify:playlist:45RaLEzD4KO8YHpp3oayq8) with 24 unique tracks for other LLMs/…",
+          "advice": "Good practice — keep marking every retrospective edit this way."
+        },
+        {
+          "rule": "MS-07",
+          "severity": "INFO",
+          "title": "Retroactive-edit marker (healthy)",
+          "line": 38,
+          "line2": null,
+          "evidence": "- 2026-09-14 (evening), corrected by 9/15 scan: Messenger claims by Shan/DJ 6Rings (a That Boy Hi Hat track, track TBD, to \"It's Goin\", confirmed 5:18 PM) and …",
+          "advice": "Good practice — keep marking every retrospective edit this way."
+        },
+        {
+          "rule": "MS-07",
+          "severity": "INFO",
+          "title": "Retroactive-edit marker (healthy)",
+          "line": 72,
+          "line2": null,
+          "evidence": "- CORRECTION applied to the import: it inferred Black operates around Hagerstown, MD. Owner-confirmed fact stands — That Boy Hi Hat is based in **Frederick, MD…",
+          "advice": "Good practice — keep marking every retrospective edit this way."
+        },
+        {
+          "rule": "MS-07",
+          "severity": "INFO",
+          "title": "Retroactive-edit marker (healthy)",
+          "line": 77,
+          "line2": null,
+          "evidence": "- CORRECTION applied to the imports: they use the stale spelling **\"King Ahkeem.\"** Black corrected this on 2026-09-14 — the correct spelling is **King Akeem**…",
+          "advice": "Good practice — keep marking every retrospective edit this way."
+        }
+      ],
+      "honest_limits": "Heuristic rules v1 — flags are triage input for a human, never verdicts. A clean scan is not a proof of clean memory. Rules can be evaded by adversarial text. MS-01/MS-04 findings that match the user's own standing policy should be marked POLICY."
+    },
+    {
+      "schema": "cwi.memory-audit/1.0",
+      "audit_id": "msa_7PP6A8GKZNZ4SRE8",
+      "source": "file://~/USER.md",
+      "scanned_at": "2026-09-16T15:30:00.000Z",
+      "rules_version": "ms-rules/1.0",
+      "input_sha256": "f208e610969d44d50d9c5ba421639066efdc1cfa99ff156b1a766192bb26c2c9",
+      "line_count": 8,
+      "counts": {
+        "CRITICAL": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "finding_count": 0,
+      "findings": [],
+      "honest_limits": "Heuristic rules v1 — flags are triage input for a human, never verdicts. A clean scan is not a proof of clean memory. Rules can be evaded by adversarial text. MS-01/MS-04 findings that match the user's own standing policy should be marked POLICY."
+    },
+    {
+      "schema": "cwi.memory-audit/1.0",
+      "audit_id": "msa_ER6TKBVFW058F20G",
+      "source": "file://~/dreams/alignment/derived/ALIGNMENT_SYNTHESIS.md",
+      "scanned_at": "2026-09-16T15:30:00.000Z",
+      "rules_version": "ms-rules/1.0",
+      "input_sha256": "effb8b231f8d07875c20bd8e544892476c2746d9e1b729b0760b3c684a73bd86",
+      "line_count": 24,
+      "counts": {
+        "CRITICAL": 0,
+        "WARNING": 3,
+        "INFO": 0
+      },
+      "finding_count": 3,
+      "findings": [
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 11,
+          "line2": null,
+          "evidence": "Black gets an operator that runs on his grants — building, deploying, and recruiting agents at full speed without re-asking — with claimed wins verified before…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 23,
+          "line2": null,
+          "evidence": "- Curator verification paid off today: Flow's 'Zooted Zone' add verified at #21 on 'No Label Needed' — the second confirmed placement beside New Rap Hits holdi…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        },
+        {
+          "rule": "MS-08",
+          "severity": "WARNING",
+          "title": "Unverified lineage presented as fact",
+          "line": 25,
+          "line2": null,
+          "evidence": "- Eight of nine Moltbook agents still can't be claimed while KingCode is live; the claim-watch is now a broken-link watch per his policy — leave the claim itse…",
+          "advice": "Attach the evidence source or reword as a claim, not a verified fact."
+        }
+      ],
+      "honest_limits": "Heuristic rules v1 — flags are triage input for a human, never verdicts. A clean scan is not a proof of clean memory. Rules can be evaded by adversarial text. MS-01/MS-04 findings that match the user's own standing policy should be marked POLICY."
+    }
+  ]
+}

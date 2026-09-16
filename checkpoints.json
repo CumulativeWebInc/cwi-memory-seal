@@ -1,0 +1,37 @@
+{
+  "schema": "cwi.memory-checkpoint-log/1.0",
+  "generated_at": "2026-09-16T15:30:00.000Z",
+  "signer_pubkey_b64": "DVg0Z4jFtrC4M1XS3DlFRjhnMKRzIozMgnha0srHoOs=",
+  "signer_key_id": "mskey_2026-09-16",
+  "entries": [
+    {
+      "id": "sha256:MEMORY.md",
+      "text": "sha256(~/MEMORY.md)=538cfa00a0c540ee5c10b3342bf9a4c50796b0a494099446d9888e9b2255c70f"
+    },
+    {
+      "id": "sha256:USER.md",
+      "text": "sha256(~/USER.md)=a38b1f04ee00ec98dfaaf51b24ca5a64f6a1daff5e17b7f18631ca18a3767b42"
+    },
+    {
+      "id": "sha256:ALIGNMENT_SYNTHESIS.md",
+      "text": "sha256(~/dreams/alignment/derived/ALIGNMENT_SYNTHESIS.md)=e92a218be2c940689749583bfa86d1f9ec2ca65a62d7a0fa71bc9d5569f28999"
+    },
+    {
+      "id": "note",
+      "text": "Checkpoint seals CONTENT HASHES of CWI memory files as of 2026-09-16T15:30:00.000Z. Verifying the checkpoint later proves whether the files changed — not whether the contents were true."
+    }
+  ],
+  "checkpoints": [
+    {
+      "schema": "cwi.memory-checkpoint/1.0",
+      "checkpoint_id": "msc_KV944N303MJJDT9T",
+      "created_at": "2026-09-16T15:30:00.000Z",
+      "entries_hash": "6f95480c97c2e0d513692cfac3f38a0a98df67c27c83e4fab372d6c00f526945",
+      "entry_count": 4,
+      "prev_hash": null,
+      "signer_pubkey_b64": "DVg0Z4jFtrC4M1XS3DlFRjhnMKRzIozMgnha0srHoOs=",
+      "label": "dogfood genesis — CWI memory files 2026-09-16",
+      "signature_b64": "6GRi4Pz+6W949iwXjCc0JjQe5Tg575u6rzd8KYgNd1Ay3JS1AYkvD2uyeyYzJUvceIdTsw7DwW121uIK2rfpBg=="
+    }
+  ]
+}
