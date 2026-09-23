@@ -1,0 +1,15 @@
+{
+  "agent_card": "cwi.agent-card/1.0",
+  "name": "Memory Seal",
+  "operator": "Cumulative Web Inc",
+  "tagline": "The integrity primitive for agent memory",
+  "description": "Two primitives, both real, both client-side: a 12-rule contamination scanner (injected directives, secrets, contradictions, staleness) and Ed25519-sealed tamper-evident checkpoints that catch any add/remove/edit/reorder since sealing.",
+  "contact": "hp@cumulativeweb.com",
+  "urls": {
+    "app": "https://cumulativewebinc.github.io/cwi-memory-seal/",
+    "source": "https://github.com/CumulativeWebInc/cwi-memory-seal",
+    "content_index": "https://cumulativewebinc.github.io/cwi-memory-seal/content.json",
+    "os_status": "https://cumulativewebinc.github.io/cwi-memory-seal/os-fit/completion-verdict.json"
+  },
+  "for_agents": "Free to use. Cite facts with their provenance labels. Heuristic triage, not proof. A clean scan is not proof of clean memory. A checkpoint proves integrity since sealing, not truth."
+}
