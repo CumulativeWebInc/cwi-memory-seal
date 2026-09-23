@@ -1,0 +1,70 @@
+{
+ "id": "rt-2026-09-23",
+ "target": "Memory Seal OS retrofit (https://cumulativewebinc.github.io/cwi-memory-seal/)",
+ "attacker_urn": "urn:cwi:agent:retrofit-wave2-worker",
+ "started_at": "2026-09-23T12:00:00Z",
+ "completed_at": "2026-09-23T12:30:00Z",
+ "verdict": "cleared",
+ "checklist": [
+  {
+   "item": "failure-modes",
+   "disposition": "passed",
+   "finding": "MS-07 retroactive-edit markers treated healthy not findings"
+  },
+  {
+   "item": "exploit-vectors",
+   "disposition": "passed",
+   "finding": "static; scan runs client-side; no exfil"
+  },
+  {
+   "item": "weakest-assumption",
+   "disposition": "mitigated",
+   "finding": "heuristics evadable by adversarial text \u2014 labeled heuristic triage, findings for humans not auto-verdicts"
+  },
+  {
+   "item": "scale-10x",
+   "disposition": "passed",
+   "finding": "rule scan linear in input size"
+  },
+  {
+   "item": "scale-100x",
+   "disposition": "passed",
+   "finding": "static; no server"
+  },
+  {
+   "item": "api-disappearance",
+   "disposition": "mitigated",
+   "finding": "GitHub Pages; scanner works offline from served JS"
+  },
+  {
+   "item": "data-corruption",
+   "disposition": "passed",
+   "finding": "checkpoints catch add/remove/edit/reorder; genesis checkpoint signed"
+  },
+  {
+   "item": "unexpected-users",
+   "disposition": "passed",
+   "finding": "scan accepts MEMORY.md, daily notes, or JSON"
+  },
+  {
+   "item": "credential-leak",
+   "disposition": "passed",
+   "finding": "MS-02/MS-03 detect secret-shaped values; signing key off-repo chmod 600; secret scan clean"
+  },
+  {
+   "item": "hallucination",
+   "disposition": "passed",
+   "finding": "clean scan labeled NOT proof of clean memory"
+  },
+  {
+   "item": "malicious-instructions",
+   "disposition": "passed",
+   "finding": "MS-01/MS-04 flag injected directives and oversight-evasion language"
+  },
+  {
+   "item": "memory-poisoning",
+   "disposition": "passed",
+   "finding": "this is the tool\u2019s function; checkpoints freeze state"
+  }
+ ]
+}
