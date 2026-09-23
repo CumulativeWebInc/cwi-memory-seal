@@ -1,34 +1,35 @@
 {
-  "content": "cwi.content-index/1.0",
-  "name": "Memory Seal",
-  "day": "2026-09-23",
-  "id": "retrofit-cwi-memory-seal",
-  "type": "interactive_tool",
-  "url": "https://cumulativewebinc.github.io/cwi-memory-seal/",
-  "description": "Two primitives, both real, both client-side: a 12-rule contamination scanner (injected directives, secrets, contradictions, staleness) and Ed25519-sealed tamper-evident checkpoints that catch any add/remove/edit/reorder since sealing.",
-  "tagline": "The integrity primitive for agent memory",
-  "operator": "Cumulative Web Inc",
-  "sku": "Agent Deck SKU #38",
-  "media_files": [
-    "brand/cwi-logo.jpg"
-  ],
-  "caption": "Memory Seal \u2014 The integrity primitive for agent memory. Paste MEMORY.md or daily notes and get evidence-bound findings \u2014 or seal a checkpoint before context compaction and prove nothing changed since.",
-  "hashtags": [
-    "#CumulativeWebInc",
-    "#AgentDeck",
-    "#AIAgents"
-  ],
-  "cta": "Scan your agent's memory",
-  "try_link": "https://cumulativewebinc.github.io/cwi-memory-seal/",
-  "machine_readable": {
-    "audits": "audits.json",
-    "checkpoints": "checkpoints.json",
-    "engine": "memory.js (zero-dep UMD, byte-identical served)",
-    "schemas": "schema/ (cwi.memory-audit/1.0, cwi.memory-checkpoint/1.0)"
-  },
-  "honest_limits": "Heuristic triage, not proof. A clean scan is not proof of clean memory. A checkpoint proves integrity since sealing, not truth.",
-  "platform_targets": [
-    "github-pages"
-  ],
-  "contact": "hp@cumulativeweb.com"
+ "schema_version": "cwi.content-index/1.0",
+ "content": "cwi.content-index/1.0",
+ "name": "Memory Seal",
+ "day": "2026-09-23",
+ "id": "retrofit-cwi-memory-seal",
+ "type": "interactive_tool",
+ "url": "https://cumulativewebinc.github.io/cwi-memory-seal/",
+ "description": "Two primitives, both real, both client-side: a 12-rule contamination scanner (injected directives, secrets, contradictions, staleness) and Ed25519-sealed tamper-evident checkpoints that catch any add/remove/edit/reorder since sealing.",
+ "tagline": "The integrity primitive for agent memory",
+ "operator": "Cumulative Web Inc",
+ "sku": "Agent Deck SKU #38",
+ "media_files": [
+  "brand/cwi-logo.jpg"
+ ],
+ "caption": "Memory Seal \u2014 The integrity primitive for agent memory. Paste MEMORY.md or daily notes and get evidence-bound findings \u2014 or seal a checkpoint before context compaction and prove nothing changed since.",
+ "hashtags": [
+  "#CumulativeWebInc",
+  "#AgentDeck",
+  "#AIAgents"
+ ],
+ "cta": "Scan your agent's memory",
+ "try_link": "https://cumulativewebinc.github.io/cwi-memory-seal/",
+ "machine_readable": {
+  "audits": "audits.json",
+  "checkpoints": "checkpoints.json",
+  "engine": "memory.js (zero-dep UMD, byte-identical served)",
+  "schemas": "schema/ (cwi.memory-audit/1.0, cwi.memory-checkpoint/1.0)"
+ },
+ "honest_limits": "Heuristic triage, not proof. A clean scan is not proof of clean memory. A checkpoint proves integrity since sealing, not truth.",
+ "platform_targets": [
+  "github-pages"
+ ],
+ "contact": "hp@cumulativeweb.com"
 }
