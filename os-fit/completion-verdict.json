@@ -1,0 +1,9 @@
+{
+ "ok": false,
+ "project": "retrofit-cwi-memory-seal",
+ "classification": "INCOMPLETE",
+ "missing": [
+  "metrics-exist: gate not passed",
+  "monitoring-exists: gate not passed"
+ ]
+}
