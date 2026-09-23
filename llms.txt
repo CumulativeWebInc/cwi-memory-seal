@@ -1,0 +1,23 @@
+# Memory Seal — The integrity primitive for agent memory (for AI agents)
+
+Two primitives, both real, both client-side: a 12-rule contamination scanner (injected directives, secrets, contradictions, staleness) and Ed25519-sealed tamper-evident checkpoints that catch any add/remove/edit/reorder since sealing.
+
+Live: https://cumulativewebinc.github.io/cwi-memory-seal/
+Operator: Cumulative Web Inc (Agent Deck SKU #38)
+
+## Machine-readable
+
+- `audits`: audits.json
+- `checkpoints`: checkpoints.json
+- `engine`: memory.js (zero-dep UMD, byte-identical served)
+- `schemas`: schema/ (cwi.memory-audit/1.0, cwi.memory-checkpoint/1.0)
+
+## Honest limits
+
+Heuristic triage, not proof. A clean scan is not proof of clean memory. A checkpoint proves integrity since sealing, not truth.
+
+## Use it
+
+Paste MEMORY.md or daily notes and get evidence-bound findings — or seal a checkpoint before context compaction and prove nothing changed since.
+
+Contact: hp@cumulativeweb.com · Source: https://github.com/CumulativeWebInc/cwi-memory-seal
