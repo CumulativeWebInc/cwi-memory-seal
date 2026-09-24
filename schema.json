@@ -10,5 +10,6 @@
     "name": "Cumulative Web Inc",
     "url": "https://cumulativeweb.com/"
   },
-  "description": "Memory-integrity scanner with 12 contamination rules plus Ed25519-sealed memory."
+  "description": "Memory-integrity scanner with 12 contamination rules plus Ed25519-sealed memory.",
+  "schema_version": "1.0.0"
 }
